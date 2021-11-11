@@ -13,18 +13,18 @@ var simple = $('.calendar-gallery');
 var owl_time = $(".calendar-time-list")
 
 let nowdate = new Date()
-console.log(nowdate)
+
 let nowYear = nowdate.getFullYear();
 
 
 let todayNowDay = nowdate.getDate()
-console.log(todayNowDay)
+
 let nowHour = nowdate.getHours();
 let todayNowMonth = nowdate.getMonth()
 var daysForGallery = []
 
 let dateFullToday = `${todayNowDay}/${todayNowMonth+1}/${nowYear}`
-console.log(dateFullToday)
+
 
 let startDay = ''
 
@@ -353,15 +353,15 @@ function choseDate(item) {
     //   })
     // })
     // console.log(timesbuttonsEnabled)
-    console.log(arrChoosed)
+
     let newtimes = timelist.querySelectorAll('.calendar-time-list__item');
-    console.log(newtimes)
+
     
     let firstEnable = timelist.querySelector('.calendar-time-list__item.enabled')
-    console.log(firstEnable)
+
    
     let indexDiv = [...document.querySelectorAll('.calendar-time-list__item')].findIndex(n => n.classList.contains('enabled'))
-    console.log(indexDiv)
+
       
     owl_time.trigger('to.owl.carousel', indexDiv, 300);
     // if ( arrChoosed[0].dataset.value == dateFullToday ) {
@@ -397,8 +397,6 @@ function chooseTime(item) {
     }
     
   }
-  console.log(arrChoosedTime)
-  console.log(arrChoosedTime[0].dataset.value)
 }
 
 timesbuttons.forEach((item) => {
@@ -456,13 +454,13 @@ let chosedItemList = document.querySelectorAll('.calendar-gallery__item.no-weeke
 choseDate(chosedItemList[0])
 
 let newtimes = timelist.querySelectorAll('.calendar-time-list__item');
-console.log(newtimes)
+
 
 let firstEnable = timelist.querySelector('.calendar-time-list__item.enabled')
-console.log(firstEnable)
+
 
 let indexDiv = [...document.querySelectorAll('.calendar-time-list__item')].findIndex(n => n.classList.contains('enabled'))
-console.log(indexDiv)
+
 if ( arrChoosed[0].dataset.value == dateFullToday ) {
   window.onload = function() {
     
@@ -470,5 +468,4 @@ if ( arrChoosed[0].dataset.value == dateFullToday ) {
   }
   
   
-  console.log('destroy')
 }
