@@ -67,12 +67,12 @@
 
 .calendar-gallery .owl-nav .owl-prev {
 	left: -2rem;
-	background-image: url(../static/icons/calendar/prev.svg);
+	background-image: url(static/icons/calendar/prev.svg);
 }
 
 .calendar-gallery .owl-nav .owl-next {
 	right: -2rem;
-	background-image: url(../static/icons/calendar/next.svg);
+	background-image: url(static/icons/calendar/next.svg);
 }
 
 .calendar-gallery .owl-item {
@@ -149,12 +149,12 @@
 
 .calendar-time-list .owl-nav .owl-prev {
     left: -2rem;
-    background-image: url(../static/icons/calendar/prev.svg);
+    background-image: url(static/icons/calendar/prev.svg);
 }
 
 .calendar-time-list .owl-nav .owl-next {
     right: -2rem;
-    background-image: url(../static/icons/calendar/next.svg);
+    background-image: url(static/icons/calendar/next.svg);
 }
 
 .calendar-time-list .owl-nav{
