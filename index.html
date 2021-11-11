@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Запись в офис</title>
+        <meta name="description" content="Запись в офис">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="customreceptionblock.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="media_index.css">
+        <link rel="stylesheet" href="styles.min.css">
+        <link rel="stylesheet" href="owl.carousel.css">
+	    <link rel="stylesheet" href="owl.theme.default.css">
+        
+        <!-- Шрифт Inter -->
+	    <link rel="stylesheet" href="stylesheet.css">
+        
+        <script defer src="newcalendar.js"></script>
+        <script src="https://unpkg.com/imask"></script>
+	    <script async defer src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    </head>
+    <body>
+        <section class="reception" id="reception">
+		        <div class="container">
+			        <form action="#" class="calendar">
+				        <div class="calendar__title subtitle">
+					        Есть возможность <span>записаться в офис</span> онлайн
+				        </div>
+				        <div class="calendar-month">
+					        <div class="calendar-month__title">
+						        Выберите день: <input type="text" id="datepicker" class="datapicker-button" readonly="">
+					        </div>
+				        </div>
+
+
+				        <div class="calendar-gallery">
+					        <!-- <div class="calendar-gallery__item">
+						        <div class="calendar-gallery__item__day">
+							        13
+						        </div>
+						        <div class="calendar-gallery__item__month">
+							        Понедельник
+						        </div>
+					        </div> -->
+				        </div>
+
+				        <div class="calendar-time">
+					        <div class="calendar-time__title">
+						        Выберите время:
+					        </div>
+					        <div class="calendar-time-list">
+						        <div class="calendar-time-list__item enabled" data-value="10:00">
+							        10:00
+						        </div>
+						        <div class="calendar-time-list__item enabled" data-value="10:30">
+							        10:30
+						        </div>
+						        <div class="calendar-time-list__item enabled" data-value="11:00">
+							        11:00
+						        </div>
+						        <div class="calendar-time-list__item enabled" data-value="11:30">
+							        11:30
+						        </div>
+						        <div class="calendar-time-list__item enabled" data-value="12:00">
+							        12:00
+						        </div>
+						        <div class="calendar-time-list__item enabled" data-value="12:30">
+							        12:30
+						        </div>
+						        <div class="calendar-time-list__item enabled" data-value="13:00">
+							        13:00
+						        </div>
+						        <div class="calendar-time-list__item enabled" data-value="13:30">
+							        13:30
+						        </div>
+						        <div class="calendar-time-list__item enabled" data-value="14:00">
+							        14:00
+						        </div>
+						        <div class="calendar-time-list__item enabled" data-value="14:30">
+							        14:30
+						        </div>
+						        <div class="calendar-time-list__item enabled" data-value="15:00">
+							        15:00
+						        </div>
+						        <div class="calendar-time-list__item enabled" data-value="15:30">
+							        15:30
+						        </div>
+						        <div class="calendar-time-list__item enabled" data-value="16:00">
+							        16:00
+						        </div>
+						        <div class="calendar-time-list__item enabled" data-value="16:30">
+							        16:30
+						        </div>
+
+						        <div class="calendar-time-list__item enabled" data-value="17:00">
+							        17:00
+						        </div>
+
+						        <div class="calendar-time-list__item enabled" data-value="17:30">
+							        17:30
+						        </div>
+
+					        </div>
+				        </div>
+				        <div class="calendar-feedback">	
+					        <div class="calendar-feedback__title">	
+						        Как нам с Вами связаться?
+					        </div>	
+					        <div class="calendar-feedback-inputs row">	
+						        <div class="calendar-feedback-inputs-forms row">	
+							        <input type="text" placeholder="Имя" class="calendar-feedback-inputs-forms__input calendar-name">
+							        <input type="text" placeholder="Номер телефона" class="calendar-feedback-inputs-forms__input calendar-phone">
+
+							        <div  class="calendar-feedback-inputs-forms__error  error calendar-error">
+								        
+
+							        Пожалуйста, заполните все поля
+						        </div>
+						        </div>
+						        
+
+						        <div class="calendar-feedback__btn btn blue calendar-button">
+							        <svg class="calendar-button-spinner button-spinner" width="2.7rem" height="2.8rem" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									        <path d="M0.0260311 8.73919C0.978302 6.39074 2.55015 4.34481 4.57394 2.81959C6.59773 1.29437 8.99756 0.347069 11.5175 0.0787159C14.0374 -0.189637 16.5829 0.231023 18.8825 1.29583C21.1821 2.36064 23.1496 4.02966 24.5751 6.12489C26.0006 8.22013 26.8306 10.663 26.9767 13.1929C27.1228 15.7229 26.5794 18.2451 25.4046 20.4905C24.2297 22.7358 22.4675 24.6202 20.3057 25.9426C18.1439 27.2651 15.6638 27.9759 13.1297 27.9994L13.1042 25.2466C15.14 25.2278 17.1325 24.6567 18.8692 23.5943C20.6058 22.5319 22.0216 21.0181 22.9654 19.2142C23.9093 17.4103 24.3458 15.3841 24.2284 13.3516C24.1111 11.3192 23.4442 9.35665 22.299 7.67341C21.1538 5.99017 19.5732 4.64933 17.7258 3.7939C15.8784 2.93847 13.8334 2.60053 11.809 2.81611C9.78458 3.0317 7.85664 3.79273 6.23079 5.01804C4.60495 6.24335 3.34218 7.88698 2.57715 9.77364L0.0260311 8.73919Z" fill="#ffffff"/>
+								        </svg>
+								        <svg class="calendar-button-checkmark" width="2.8rem" height="2.8rem" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									        <path d="M11.2046 18.4399L6.86388 14.2944L5 16.0745L11.2046 22L24 9.78006L22.1361 8L11.2046 18.4399Z" fill="#ffffff"/>
+								        </svg>
+							        <div class="calendar-button-text">Записаться в офис</div>
+						        </div>
+						        
+					        </div>
+					        <div class="calendar-feedback__errors">
+						        
+					        </div>
+					        <div class="calendar-konf">
+						        Нажимая кнопку “Записаться в офис”, Вы соглашаетесь с <a download href="static/files/politika.pdf">политикой конфиденциальности</a>
+					        </div>	
+				        </div>	
+			        </form>
+		        </div>
+	        </section>
+	        
+	    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="owl.carousel.js"></script>
+        
+        <script src="forms.js"></script>
+        
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+           (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+           m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+           (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+           ym(84847990, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+           });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/84847990" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+    </body>
+</html>

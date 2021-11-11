@@ -1,0 +1,868 @@
+@media screen and ( max-width:1919px ) {
+	html {
+		font-size: 0.6235vw;
+	}
+
+	.container {
+		padding-left: 4.5rem;
+		padding-right: 4.5rem;
+	}
+	.title {
+		font-size: 4.5rem;
+	}
+	.results-list__item {
+		width: 33.5rem;
+    	height: 49rem;
+	}
+	.collective-cases-list {
+		margin-bottom: 12.8rem;
+	}
+	.collective-cases-list__item {
+	    width: 22rem;
+	    height: 31rem;
+	}
+	.possibility-quis__text {
+		font-size: 2.4rem;
+	}
+	.possibility__title::after {
+		right: -7rem;
+   		bottom: -21px;
+	}
+	.faq-videos__item {
+	    height: 42rem;
+	    width: 74rem;
+	}
+	.office-list__item {
+	    width: 73rem;
+	    height: 54.6rem;
+	}
+	.calendar {
+		width: 100%;
+		padding: 6.4rem 16rem;
+	}
+	.harry .container {
+		padding: 0 19rem 0 19rem;
+	}
+	.calculation-body {
+		width: 92rem;
+	}
+	.dolgs-list {
+		margin: 0 auto 2rem auto;
+	}
+	.main__image.w1920 {
+		display: none;
+	}
+	.main__image.w1200 {
+		display: block;
+		width: 39%;
+	}
+	.why-list__item {
+		width: 48rem;
+		height: 21.6rem;
+		background-size: 45%;
+	}
+	.possibility .container {
+		padding-right: 26rem;
+    	padding-left: 12rem;
+	}
+	.pravo-list__item {
+		width: 47rem;
+	}
+	.popup-body-content__cases a {
+		width: 22rem;
+    height: 33rem;
+	}
+}
+
+@media screen and ( max-width:1279px )  {
+  .up-arrow {
+    display: none;
+  }
+  .popup-body-content__cases .collective-cases-list__item {
+  	width: 29rem;
+    height: 46rem;
+  }
+  .owl-nav {
+  	width: 107.5%;
+  }
+	html {
+		font-size: 1vw;
+	}
+	.nav {
+		padding: 0;
+	}
+	
+	.header-panel__rigthbtn {
+		display: block;
+	}
+	.header-address__item.sizran, .header-address__item.tolyatti {
+		display: none;
+	}
+	.nav-list__close {
+		display: block;
+	}
+	.nav-list {
+		transition: .3s;
+		position: fixed;
+		flex-direction: column;
+		align-items: flex-start;
+    	background-color: #0227AB;
+    	height: 100%;
+    	width: 33rem;
+    	justify-content: flex-start;
+    	padding: 3rem 2rem;
+    	top: 0;
+    	right: -200%;
+    	z-index: 10;
+    	-webkit-box-shadow: -9px 1px 27px 1px rgba(34, 60, 80, 0.2);
+		-moz-box-shadow: -9px 1px 27px 1px rgba(34, 60, 80, 0.2);
+		box-shadow: -9px 1px 27px 1px rgba(34, 60, 80, 0.2);
+	}
+	.calendar-feedback__btn {
+		margin-bottom: 2rem;
+	}
+	.nav-list__item {
+		color: #fff;
+		margin-bottom: 1rem;
+	}
+	.calculation-info__image {
+		display: none;
+	}
+	.dolgs-list {
+		flex-direction: column;
+		width: 100%;
+	}
+	.dolgs-list__item.consult {
+		flex-direction: column;
+		align-items:  center;
+	}
+	.dolgs-list__item-content__text {
+		max-width: unset;
+	}
+	.dolgs-list__item.consult .dolgs-list__item__image {
+		margin-bottom: 2rem;
+	}
+
+	.dolgs-list__item {
+		width: 80rem;
+	}
+	.dolgs-list__item.consult::after {
+		left: 48%;
+	}
+	.main-content-icons {
+		flex-direction: column;
+
+	}
+	.main-content-icons__item {
+		margin-bottom: 2rem ; 
+	}
+	.ivan-image {
+		margin-bottom: 2rem;
+	}
+	.dolgs-list__item.consult::before {
+		top: 74%;
+		bottom:  unset;
+		left: 48.5%;
+		width: .2rem;
+		height: 0;
+	}
+	
+	.dolgs-list__item.consult.loaded::before {
+		height: 10rem;
+		width: .2rem;
+	}
+	.dolgs-list__item.podgotovka::before {
+		top: 100%;
+		left: 48.5%;
+		width: 0.2rem;
+	}
+	.dolgs-list__item.podgotovka.loaded::before {
+		height: 5rem;
+		width: 0.2rem;
+	}
+	.dolgs-list__item.zayavl.loaded::before {
+		height: 5rem;
+	}
+	.dolgs-list__item__line {
+		display: none;
+	}
+	.dolgs-list__item.zasedanie.loaded::after {
+		display: none;
+	}
+	.dolgs-list__item.zasedanie::before {
+		left: 50.5%;
+		width: 0.2rem;
+		height: 0;
+		top: 100%;
+	}
+	.dolgs-list__item.zasedanie.loaded::before {
+		height: 3rem;
+		width: 0.2rem;
+	}
+	.dolgs-list__item.zasedanie .dolgs-list__item__dot {
+		top: 108%;
+    	left: 49.6%;
+    	transition-delay: 0;
+	}
+	.dolgs-list__item.reshenie .dolgs-list__item__dot {
+		top: 108%;
+    	left: 49.2%;
+	}
+	.dolgs-list__item.reshenie::before {
+		height: 0;
+		width: .2rem;
+		left: 50%;
+		top: 112%;
+	}
+	.dolgs-list__item.reshenie.loaded::before {
+		width: .2rem;
+		height: 3.2rem;
+	}
+	.calculation-body-title {
+		max-width: 47rem;
+	}
+	.pravo-list {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.pravo-list__item:first-child {
+		margin-right: 3rem;
+		margin-bottom: 3rem;
+	}
+	.pravo-list__item {
+		width: 38rem;
+	}
+	.possibility .container {
+		padding: 0 3rem;
+	}
+	.possibility-quis {
+		margin-top: 2rem;
+	}
+
+	.header-panel__tel {
+		width: 21rem;
+	}
+	.header-panel__btn {
+		width: 21rem;
+	}
+	.why-list__item {
+		width: 48%;
+    	height: 34.6rem;
+	}
+	.why-list__item__title {
+	    max-width: 70%;
+	    font-size: 3.2rem;
+	}
+	.possibility__title {
+		font-size: 3.2rem;
+	}
+	.possibility-quis__text {
+		max-width: 88%;
+	}
+	.possibility__title::after {
+		right: 10rem;
+    	bottom: -2rem;
+	}
+	.possibility-quis__text {
+		font-size: 2.2rem;
+	}
+	.possibility-quis__btn {
+		width: 39rem;
+	}
+	.dogovor {
+		padding: 10.8rem 0rem;
+	}
+	.ivan-image {
+		margin-right: 3rem;
+	}
+	.calculation .container {
+		flex-direction: column;
+	}
+	.harry .container {
+		padding: 0 4rem;
+	}
+	.calculation-body {
+		width: 100%;
+	}
+	.calculation-info {
+		width: 100%;
+	}
+	.calculation-info__title {
+		width: 58rem;
+		margin-right: 4rem;
+		font-size: 4rem;
+	}
+	.calculation-info {
+		display: flex;
+		/*justify-content:  space-between;*/
+	}
+	.calculation-info__lines {
+		display: none;
+	}
+	.calculation-info {
+		height: 25.6rem;
+		background-image: url('../static/images/backlinesbottom.png');
+		background-position: right bottom;
+		background-size: 28%;
+		background-repeat: no-repeat;
+	}
+	.calculation-info-content__descrp {
+		font-size: 2.4rem;
+		margin-bottom: 0rem;
+		margin-top: 1rem;
+	}
+	.results-list__item {
+	    width: 26.5rem;
+   		height: 39rem;
+	}
+	.results-list__item:nth-child(3n) {
+	    margin-right: 0rem;
+	}
+	.results-list__item:nth-child(4n) {
+	    margin-right: 3rem;
+	}
+	.results-list__item__mask {
+		display: none;
+	}
+	.results-list__item__mask:nth-child(-n+6) {
+		display: block;
+	}
+	.results-list__item-descrp {
+		display: flex;
+    	flex-direction: column;
+    	align-items: flex-start;
+	}
+	.collective-list__item {
+	    width: 43rem;
+    	height: 68.6rem;
+    	font-size: 1.5em;
+	}
+	.collective-list .owl-nav {
+		top: 37%;
+    	left: -4rem;
+    	width: 107.5%;
+	}
+	.collective-list__item__time {
+		top: 48rem;
+	}
+	.collective-cases-list__item:nth-child(4n) {
+		margin-right: 0;
+	}
+	.collective-cases-list__item.smallscreen {
+		display: none;
+	}
+	.collective-cases-list__item {
+		width: 28rem;
+    	height: 36rem;
+	}
+	.collective-cases-list__item__text {
+	    font-size: 2rem;
+	}
+	.collective-cases-list__item {
+		display: none;
+	}
+	.collective-cases-list__item:nth-child(3n) {
+		margin-right: 0;
+	}
+	.collective-cases-list__item:nth-child(-n+3) {
+		display: block;
+	}
+	.faq-videos {
+		flex-direction: column;
+	}
+	.faq-videos__item {
+	    height: 61rem;
+	    width: 100%;
+	    margin-bottom: 5rem;
+	}
+	.receptconsult-banner {
+		padding: 2.4rem 3.2rem;
+	}
+	.receptconsult-banner-form-inputs {
+		flex-direction: column;
+		width: 39rem;
+	}
+	.receptconsult-banner-form-inputs__item {
+		margin-bottom: 1rem;
+	}
+	.office-list__item {
+	    width: 44rem;
+    	height: 33.6rem;
+	}
+
+	.calendar-feedback-inputs {
+		flex-direction: column;
+	}
+	.calendar-feedback-inputs-forms {
+		margin-bottom: 3rem;
+	}
+	.dogovor-screen {
+		width: 46rem;
+	}
+	.harry-box {
+		width: 47rem;
+	}
+	.receptconsult-banner-form-inputs {
+		margin-bottom: 2.4rem;
+	}
+	.calendar {
+		padding: 6.4rem 7rem;
+	}
+	.contacts-row {
+		flex-direction: column;
+		width: unset;
+	}
+	.collective-list__item-content__status {
+		font-size: 1.6rem;
+	}
+	.calculation-body-panel {
+		flex-direction: column;
+	}
+	.calculation-body-panel__button {
+		margin-bottom: 2rem;
+	}
+	.popup-body-header {
+		position: unset;
+
+	}
+	.popup-body-header__close {
+		right: 3rem;
+    	top: 3rem;
+	}
+	.main__image.w1200 {
+		display: none;
+	}
+	.main__image.w768 {
+		display: block;
+		width: 61%;
+	}
+	.calendar-feedback-inputs-forms__error {
+		bottom: 9rem;
+	}
+	.results-list__item__mask:nth-child(3n) {
+		margin-right: 0;
+	}
+	.results-list__item__mask:nth-child(4n) {
+		margin-right: 3rem;
+	}
+	.popup-body-content__cases .owl-nav {
+  	width: 106.5%;
+  }
+}
+
+@media screen and ( max-width: 768px) {
+	body {
+		overflow-x: hidden;
+	}
+	html {
+		font-size: 1.9vw;
+	}
+	.btn {
+		font-size: 2rem;
+    	font-weight: 500;
+	}
+	
+	.title {
+	    font-size: 3.4rem;
+	}
+	.main {
+		background-image: unset;
+	}
+	.dolgs-list__item {
+		width: 100%;
+	}
+	.pravo-list {
+		flex-wrap: wrap;
+	}
+	.main__image.w1200 {
+		width: 78%;
+	}
+	.bannerTemp-body {
+		background-image: url('../static/images/bannersmale.webp');
+		background-size: cover;
+	    width: 100%;
+
+    	height: 30rem;
+    	padding: 6.6rem 6.2rem 5rem 4.2rem;
+	}
+	.bannerTemp-body__title {
+
+	}
+	.bannerTemp-body__title {
+		font-weight: 400;
+	}
+	.bannerTemp-body__title, .bannerTemp-body-bottom {
+		max-width: 58rem;
+		font-size: 2.1rem;
+		font-weight: 400;
+	}
+	.bannerTemp {
+		height: unset;
+	}
+	.why-list {
+		overflow: auto;
+		flex-wrap: nowrap;
+		display: -webkit-box;
+	}
+	.why-list__item__title {
+		max-width: 100%;
+	}
+	.why .container {
+		padding: 0;
+	}
+	.procedure .container {
+		padding: ;
+	}
+	.why-list__item {
+		width: 45rem;
+		margin-right: 2rem;
+		font-size: 1.8rem;
+	}
+	.results-more {
+		text-align: center;
+	}
+	.why-list__item:last-child {
+		margin-right: 0;
+	}
+	.possibility__title {
+		font-weight: 400;
+		margin-bottom: 2rem;
+	}
+	.possibility .container {
+		flex-direction: column;
+		align-items: flex-start;
+
+	}
+	.possibility__title::after {
+		display: none;
+	}
+	.dogovor .container {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.results-more-list__item {
+		width: 70%;
+		margin-bottom: 2.5rem;
+	}
+	.results-more-list {
+		flex-direction: column;
+		align-items: center;
+	}
+	.dogovor-panel {
+		max-width: unset;
+		margin-bottom: 1rem;
+	}
+	.procedure-list {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.procedure-list__item {
+		margin-right: 0;
+		width: 100%;
+	    background-size: 43%;
+
+	}
+	.why-list__item {
+	    height: 26.6rem
+	}
+	.procedure-list__item {
+		height: 21.6rem;
+	}
+	.ivan {
+		padding-bottom: 10rem;
+	}
+	.ivan .container {
+		flex-direction: column;
+		text-align: center;
+	}
+	.ivan-content-list {
+		flex-direction: column;
+		justify-content:  center;
+	}
+	.ivan-content__title {
+		font-weight: 400;
+	}
+	.ivan-image {
+		width: 80%;
+	}
+	.ivan-content-list__item {
+		border:  0;
+		margin-bottom: 4rem;
+	}
+	.ivan-content-list__item__text {
+	    margin: auto;
+	}
+	.calculation .container {
+		padding: 0;
+	}
+	.calculation-info__title {
+		font-size: 3.5rem;
+	}
+	.expenses-list__item-header__icon {
+		width: 6.8rem;
+		margin-left: 3rem;
+	}
+	.calculation-info {
+		flex-direction: column;
+	}
+	.expenses-list__item {
+		padding: 3.2rem;
+	}
+	.calculation-info__title {
+		margin-bottom: 1rem;
+		width: 100%;
+	}
+	.possibility-quis__btn {
+		width: 46rem;
+		font-size: 1.8rem;
+		text-align: center;
+		display: block;
+	}
+	.bannerTemp-body-bottom {
+		flex-direction: column;
+	}
+	.bannerTemp-body-bottom__text {
+		margin-bottom: .8rem;
+	}
+	.pravo-list__item {
+		width: 46%;
+		margin-bottom: 2rem;
+		width: 47%;
+    	margin-bottom: 4rem;
+    	font-size: 1.8rem;
+	}
+	.pravo-list__item:last-child {
+		width: 100%;
+	}
+	.header-address {
+		display: none;
+	}
+	.header-panel__btn {
+		display: none;
+	}
+	.results-list {
+		display: -webkit-box;
+		overflow: scroll;
+		flex-wrap: nowrap;
+	}
+	.collective-cases-list {
+		flex-wrap: nowrap;
+	}
+	.harry .container {
+		flex-direction: column;
+	}
+	.harry-content {
+		margin-bottom: 5rem;
+	}
+	.receptconsult-bannerTemp {
+		background-image: url('../static/images/reception/receptionbacksmalle.png');
+		background-size: contain;
+    	padding: 2.4rem 2.2rem;
+		background-repeat: no-repeat;
+	    background-position: right;
+	    color: #ffffff;
+	    height: 46.2rem;
+	    background-color: #052B3E;
+
+	}
+	
+	.office-list__item:nth-child(-n+4) {
+	    width: 14rem;
+    	height: 9rem;
+    	margin-bottom: 1.2rem;
+	}
+	.office-list__item:first-child {
+	    width: 100%;
+	    height: 30.6rem;
+	}
+	.receptconsult-bannerTemp-form-inputs {
+		flex-direction: column;
+
+	}
+	.receptconsult-bannerTemp-form-inputs__item {
+		font-size: 2.4rem;
+		margin-bottom: 2rem;
+	}
+	.receptconsult-bannerTemp-form-inputs {
+		margin-bottom: .4rem;
+	}
+	.receptconsult .container {
+		padding: 0;
+	}
+	.receptconsult-bannerTemp-form-panel {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.receptconsult-bannerTemp-form-panel__btn {
+		margin-bottom: 2rem;
+	}
+	.reception .container {
+		padding-left: 0rem;
+    	padding-right: 
+    	0rem;
+	}
+	.calendar-time-list {
+		flex-wrap: wrap;
+	}
+	.calendar-time-list__item {
+		margin-bottom: 2rem;
+		width: 12rem;
+	}
+	.calendar-month {
+		font-size: 2.5rem;
+	}
+	.calendar-time-list__item {
+		font-size: 2rem;
+	}
+	.calendar-feedback-inputs-forms {
+		flex-direction: column;
+	}
+	.calendar-feedback-inputs-forms__input {
+		margin-bottom: 1.5rem;
+		width: 100%;
+	}
+	.results-list__item:nth-child(1n) {
+		margin-right: 3rem;
+	}
+	.results-list__item:nth-child(6n) {
+		margin-right: 0rem;
+	}
+	.contacts .container {
+		flex-direction: column;
+		font-size: 1.8rem;
+	}
+	.footer {
+		text-align: center;
+	}
+	.footer .container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer__copyright {
+		margin-bottom: 1rem;
+	}
+	.nav-list {
+		width: 100%;
+		font-size: 3rem;
+	}
+	.header-panel {
+		display: none;
+	}
+	.main-content-icons {
+		flex-direction: row;
+		width: unset;
+	}
+	.main-content__btn {
+		margin-bottom: 2.8rem;
+	}
+	.main {
+		padding-bottom: 50rem;
+	}
+	.main__image.w1200 {
+		display: none;
+	}
+	.main__image.w768 {
+		display: block;
+		width: 100%;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+	.collective-cases__title {
+		margin:  0 auto 4rem auto;
+		max-width: 85%;
+	}
+	.collective-cases-list__item {
+	    height: 15rem;
+	}
+	.calendar-feedback-inputs-forms__input {
+		font-size: 1.8rem;
+	}
+	.expenses-list__item-content-droper {
+		width: 	60%;
+	}
+	.collective-list .owl-nav {
+		width: 115.5%;
+	}
+	
+	.results .container {
+		padding: 0;
+	}
+	.results__title, .result-more {
+		padding-left: 4.5rem;
+    	padding-right: 4.5rem;
+	}
+	.results__btn {
+		width: 40rem;
+	}
+	.dolgs {
+		font-size: 1.8rem;
+	}
+	.faq {
+		padding: 4.8rem 0;
+	}
+	.expenses-list__item-content-droper__hr {
+		width: 27rem;
+	}
+	.expenses-list__item-content-droper {
+		width: 100%;
+	}
+	.expenses-list__item-content-droper-item {
+		flex-direction: column;
+	}
+	.expenses-list__item-content-droper-item__descrp {
+		max-width: 100%;
+	}
+	.expenses-list__item-content {
+		max-width: 78%;
+	}
+	.expenses-list__item-content-droper-item__descrp {
+		margin-bottom: 1rem;
+	}
+	.ivan-image {
+		margin-right: 0;
+	}
+	.ivan-content-list__item__title__numb.three {
+		margin-left: 2rem;
+	}
+	.collective-list__item-content__status {
+		font-size: 1.8rem;
+	}
+	.calendar-feedback__btn {
+		width: 31rem;
+	}
+	.collective-cases__btn {
+		width: 36rem;
+	}
+	.main .container {
+		padding-top: 5.6rem;
+	}
+	.pravo-list__item:first-child {
+		width: 100%;
+		margin-right: 0;
+	}
+	.pravo-list__item {
+		width: 100%;
+	}
+	.pravo-list__item {
+		margin-right: 0;
+	}
+	.pravo-list__item:last-child {
+		margin-bottom: 0;
+	}
+	.office {
+		padding: 6.4rem 0 3.4rem 0;
+	}
+	.popup-body-content__reshenie .receptconsult-bannerTemp {
+		width: 100%;
+		background-image: unset;
+		background-color: #fff;
+	}
+
+}
+
+@media screen and ( max-height: 790px ) {
+	.popup-body-header__close path {
+		fill:  #000000;
+	}
+}
