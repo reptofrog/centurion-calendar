@@ -80,7 +80,7 @@ function clickHandlerCalendarButton() {
     calendarButtonSpinner.classList.remove('calendar-button-spinner--is-shown');
     calendarButtonCheckmark.classList.add('calendar-button-checkmark--is-shown');
     console.log('EmailJS — письмо отправлено', response.status, response.text);
-    ym(84847990,'reachGoal','form_zapis_online')
+    //ym(84847990,'reachGoal','form_zapis_online')
   }, function(error) {
     calendarButtonText.textContent = 'Ошибка отправки';
     calendarButton.classList.remove('calendar-button--deactivated');
